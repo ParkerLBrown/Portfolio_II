@@ -1,0 +1,81 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapper {
+  width: 750px;
+  margin: auto;
+}
+
+  .header {
+    text-align: center;
+  }
+
+    .nav {
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+  /*AboutMe html*/
+  .mainContent {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+    .picture {
+      width: 300px;
+      text-align: center;
+    }
+
+    .aboutme {
+      width: 200px;
+    }
+
+
+  /*Projects html*/
+  .projects {
+    padding: 10px;
+    border: 1px solid black
+  }
+
+    .project {
+      display: flex;
+      margin: 10px;
+    }
+
+      .project img {
+        width: 125px;
+        height: 125px;
+        margin-right: 25px;
+      }
+
+
+  /*Contact html*/
+  .contactMe {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+    .generalInfo {
+      padding: 10px;
+    }
+
+      .name {
+        margin: 5px;
+      }
+
+      .email {
+        margin: 5px;
+      }
+
+      .message {
+        padding: 10px;
+        margin: 5px;
+      }

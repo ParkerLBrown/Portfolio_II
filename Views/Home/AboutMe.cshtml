@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="~/css/style.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="header">
+      <div class="nav">
+        <p><a href="/">Home</a></p>
+        <p><a href="/projects">Projects</a></p>
+        <p><a href="/contact">Contact</a></p>
+      </div>
+      <h1>About Me</h1>
+    </div>
+    <div class="mainContent">
+      <div class="picture">
+        <img src="@ViewBag.Imgurl" alt="Photo_of_Jester">
+        <h3>@ViewBag.Name</h3>
+        <h4>@ViewBag.Slogan</h4>
+      </div>
+      <p class="aboutme">
+        Hello! I'm Jingle the Jester and I will be helping you along your quest!
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi dolor necessitatibus
+        suscipit praesentium? Quibusdam quos beatae officia praesentium distinctio accusantium
+        consequuntur, impedit amet molestias modi aspernatur totam cupiditate ipsam dolor.
+      </p>
+    </div>
+  </div>
+</body>
+</html>
